@@ -1,7 +1,7 @@
 # SVG to webfont converter for Grunt
-[![npm version](https://badge.fury.io/js/grunt-webfonts.svg?colorB=brightgreen)](https://www.npmjs.com/package/grunt-webfonts)
-[![npm](https://img.shields.io/npm/dm/grunt-webfonts.svg?colorB=brightgreen)](https://www.npmjs.com/package/grunt-webfonts)
-[![node](https://img.shields.io/node/v/grunt-webfonts.svg?colorB=brightgreen)](https://www.npmjs.com/package/grunt-webfonts)
+[![npm version](https://badge.fury.io/js/grunt-webfonts-zwc.svg?colorB=brightgreen)](https://www.npmjs.com/package/grunt-webfonts-zwc)
+[![npm](https://img.shields.io/npm/dm/grunt-webfonts-zwc.svg?colorB=brightgreen)](https://www.npmjs.com/package/grunt-webfonts-zwc)
+[![node](https://img.shields.io/node/v/grunt-webfonts-zwc.svg?colorB=brightgreen)](https://www.npmjs.com/package/grunt-webfonts-zwc)
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
 Generate custom icon webfonts from SVG files via Grunt. Inspired by [grunt-webfont](https://github.com/sapegin/grunt-webfont).
@@ -23,6 +23,7 @@ This task will make all you need to use font-face icons on your website: font in
 * Ligatures.
 * HTML preview.
 * Custom templates.
+* Zero-width characters.
 
 
 ## Installation
@@ -33,7 +34,7 @@ This plugin requires Grunt >= 1.0.0. Note that `ttfautohint` is optional, but yo
 
 ```
 brew install ttfautohint fontforge --with-python
-npm install grunt-webfonts --save-dev
+npm install grunt-webfonts-zwc --save-dev
 ```
 
 *You may need to use `sudo` for `brew`, depending on your setup.*
@@ -44,7 +45,7 @@ npm install grunt-webfonts --save-dev
 
 ```
 sudo apt-get install fontforge ttfautohint
-npm install grunt-webfonts --save-dev
+npm install grunt-webfonts-zwc --save-dev
 ```
 
 *`fontforge` isn’t required for the `node` engine (see [below](#available-engines)).*
@@ -52,7 +53,7 @@ npm install grunt-webfonts --save-dev
 ### Windows
 
 ```
-npm install grunt-webfonts --save-dev
+npm install grunt-webfonts-zwc --save-dev
 ```
 
 Then [install `ttfautohint`](http://www.freetype.org/ttfautohint/#download) (optional).
@@ -90,7 +91,7 @@ There are two font rendering engines available. See also `engine` option below.
 Add somewhere in your `Gruntfile.js`:
 
 ```javascript
-grunt.loadNpmTasks('grunt-webfonts');
+grunt.loadNpmTasks('grunt-webfonts-zwc');
 ```
 
 Inside your `Gruntfile.js` file add a section named `webfont`. See the Parameters section below for details.
