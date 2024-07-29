@@ -1,5 +1,5 @@
 {
-  "version": "5.0.0",
+  "version": "5.0.1",
   "name": "grunt-webfonts-zwc",
   "description": "SVG to webfont converter for Grunt",
   "homepage": "https://github.com/RealityRipple/grunt-webfonts",

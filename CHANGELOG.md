@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+## [5.0.1]
+### Added
+- Add zero-width character support
+
 ## [5.0.0]
 ### Changed
 - [BREAKING] Drop NodeJS 12-14 support
@@ -144,7 +148,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 + FontForge engine
 + Tests (because they didn't work correctly)
 
-[Unreleased]: https://github.com/L2jLiga/grunt-webfonts/compare/v5.0.0...HEAD
+[Unreleased]: https://github.com/L2jLiga/grunt-webfonts/compare/v5.0.1...HEAD
+[5.0.1]: https://github.com/L2jLiga/grunt-webfonts/compare/v5.0.0...v5.0.1
 [5.0.0]: https://github.com/L2jLiga/grunt-webfonts/compare/v4.0.3...v5.0.0
 [4.0.3]: https://github.com/L2jLiga/grunt-webfonts/compare/v4.0.2...v4.0.3
 [4.0.2]: https://github.com/L2jLiga/grunt-webfonts/compare/v4.0.1...v4.0.2
