@@ -417,6 +417,25 @@ Type: `boolean` Default: `true`
 
 Enables font auto hinting using `ttfautohint`.
 
+#### zerowidth
+
+Type: `array` Default: `null`
+
+Defines characters that should be rendered with no width or side bearings.
+
+The relevant SVG files still need to exist, but a `0` wide viewport object should suffice, so long as it has some simple vertical path inside to parse.
+
+```javascript
+options: {
+	zerowidth: ['20e3']
+}
+```
+
+```xml
+// file: 20e3.svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 36"><path fill="#FFFFFF00" d="M0 0 V 36 z"/></svg>
+```
+
 #### round
 
 Type: `number` Default: `10e12`
